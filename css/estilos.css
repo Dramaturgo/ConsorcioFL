@@ -1,25 +1,27 @@
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "My Font Name";
-    src: url("assets/times new roman.ttf") format("truetype");
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
+
 
 
 
 header{
-    height: 100px;
+    height: 150px;
     background: #ffd775; 
 }
 
 .container{
-    max-width: 1150px;
+    max-width: 1500px;
     height: 100%;
     margin: auto;
     padding: 50px;
-    padding-top: 60px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +29,7 @@ header{
 
 
 .logo img {
-     width: 50px;
+     width: 60px;
 }
 
 #colorVerde{
@@ -47,11 +49,11 @@ color:green;
 
 
 .titulo strong {
-   font-size: 16px; 
+   font-size: 18px; 
 }
 
 .titulo p{
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: none;
     color: #000;
 }
@@ -95,4 +97,10 @@ color:green;
 
 #icon_menu{
     display: none;
+}
+
+
+.image_post img{
+width: 100%;
+
 }
