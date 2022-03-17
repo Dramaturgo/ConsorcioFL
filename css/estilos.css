@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "My Font Name";
+    src: url("assets/times new roman.ttf") format("truetype");
+}
+
+
+
+header{
+    height: 100px;
+    background: #ffd775; 
+}
+
+.container{
+    max-width: 1150px;
+    height: 100%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+     width: 50px;
+}
+
+#colorVerde{
+color:green;
+}
+#verdeMenor{
+    color:green;
+    font-size: 10px;
+}
+#colorMarron{
+    color:rgb(97, 54, 47);
+}
+#colorFondo{
+    background: #ffd775; 
+}
+
+
+
+.titulo strong {
+   font-size: 16px; 
+}
+
+.titulo p{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 25px;
+}
+
+.menu nav ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.25;
+}
+
+.btn__header-register{
+    padding: 10px 10px;
+    border: square solid;
+    background: #000;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+
+.btn__header-register:hover{
+    background: green;
+    color:rgb(97, 54, 47);
+}
+
+#icon_menu{
+    display: none;
+}
