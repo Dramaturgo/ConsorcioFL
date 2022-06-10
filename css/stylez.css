@@ -79,7 +79,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: url("img/demolicion.jpg");
+  background-image: url("../img/demolicion.jpg");
   height:80%;
 
   background-position: center;
