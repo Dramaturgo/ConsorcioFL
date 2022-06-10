@@ -1,106 +1,47 @@
+.image{
+width: 170px;
+}
+
+.fondo-yellow{
+  background-image: -webkit-linear-gradient(160deg,#3a3a3a 65%,#ffd775 75%)!important;
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+}
+
+
+.bold-times{
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-left:30px!important;
+  
+}
+
+.bold-times:hover{
+ text-decoration: underline;
+ text-underline-offset: 1rem;
+ color: #f6a742!important;
+}
+
+.header__ws {
+  color: #3a3a3a !important;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-left:30px;
+
+}
+
+.header__ws:hover {
+  color: #34b613 !important;
 }
 
 
 
 
-header{
-    height: 150px;
-    background: #ffd775; 
+
+			
+@media(max-width: 576px){
+ .fondo-yellow{
+  background-image: -webkit-linear-gradient(160deg,#3a3a3a 40%,#ffd775 50%)!important;
+
 }
-
-.container{
-    max-width: 1500px;
-    height: 100%;
-    margin: auto;
-    padding: 50px;
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.logo img {
-     width: 60px;
-}
-
-#colorVerde{
-color:green;
-}
-#verdeMenor{
-    color:green;
-    font-size: 10px;
-}
-#colorMarron{
-    color:rgb(97, 54, 47);
-}
-#colorFondo{
-    background: #ffd775; 
-}
-
-
-
-.titulo strong {
-   font-size: 18px; 
-}
-
-.titulo p{
-    font-size: 15px;
-    text-decoration: none;
-    color: #000;
-}
-
-.menu nav ul{
-    display: flex;
-}
-
-.menu nav ul li{
-    list-style: none;
-    padding: 0px 25px;
-}
-
-.menu nav ul li a{
-    font-size: 17px;
-    text-decoration: none;
-    color: #000;
-    
-}
-
-.menu nav ul li a:hover{
-    opacity: 0.25;
-}
-
-.btn__header-register{
-    padding: 10px 10px;
-    border: square solid;
-    background: #000;
-    color: white;
-    font-weight: 500;
-    font-size: 12px;
-    cursor: pointer;
-    transition: background, color, 300ms;
-}
-
-
-.btn__header-register:hover{
-    background: green;
-    color:rgb(97, 54, 47);
-}
-
-#icon_menu{
-    display: none;
-}
-
-
-.image_post img{
-width: 100%;
-
 }
