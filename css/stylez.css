@@ -6,6 +6,8 @@ width: 170px;
 
 .fondo-yellow{
   background-image: -webkit-linear-gradient(160deg,#3a3a3a 65%,#ffd775 75%)!important;
+  border-top: 0.5em #3a3a3a solid;
+  border-bottom: 0.5em #ffd775 solid;
 
 
 }
@@ -80,13 +82,24 @@ body, html {
 /*comentario de mierda*/
 
 .hero-image {
-  background-image: url("../img/demolicion.jpg");
-  height:80%;
-
+ /* background-image: url("../img/demolicion.jpg");*/
+  height:100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border-bottom: 1rem solid #000;
+
+}
+
+
+.homebg{
+
+background-image:url("../img/demolicion.jpg");
+}
+
+.nosotrosbg{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/nosotrosbg.jpg");
 }
 
 .hero-text {
@@ -118,9 +131,15 @@ body, html {
 .hero-image .hero-text {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ /* background: rgb(0, 0, 0); /* Fallback color */*/
+  /*background: rgba(0, 0, 0, 0.5);*/ /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
+}
+
+.hero-text .mostaza{
+  background-color: #f6a742;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
