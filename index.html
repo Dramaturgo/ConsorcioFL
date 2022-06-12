@@ -90,7 +90,16 @@ Llámenos y consúltenos, lo atenderemos a la brevedad posible.</p>
       <img src="img/demolicion.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/nosotrosbg.jpg" class="d-block w-100" alt="...">
+      <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel4.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
  
@@ -130,7 +139,16 @@ Llámenos y consúltenos, lo atenderemos a la brevedad posible.</p>
 
 
 
+  <script type="text/javascript">
+        $(document).ready(function() {
 
+            $('#carouselv').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, masked: false, itemstodisplay: 3, orientation: 'v' });
+            $('#carouselh').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 5, orientation: 'h' });
+            $('#carouselhAuto').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, masked: false, itemstodisplay: 3, orientation: 'h' });
+
+        });       
+        
+    </script>
 
 
 
