@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
 
+
+
+
 .image{
 width: 170px;
 }
 
 .fondo-yellow{
   background-image: -webkit-linear-gradient(160deg,#3a3a3a 65%,#ffd775 75%)!important;
-  border-top: 0.5em #3a3a3a solid;
-  border-bottom: 0.5em #ffd775 solid;
+ /* border-top: 0.5em #3a3a3a solid;*/
+  border-bottom: 0.5em #3a3a3a solid;
 
 
 }
@@ -88,7 +91,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-bottom: 1rem solid #000;
+ /* border-bottom: 1rem solid #000;*/
+
 
 }
 
@@ -98,28 +102,47 @@ body, html {
 background-image:url("../img/demolicion.jpg");
 }
 
-.nosotrosbg{
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/nosotrosbg.jpg");
-}
-
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
 }
+
+.hero-text-v2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:80%;
+ 
+  transform: translate(-80%, -80%);
+  color: white;
+  position: absolute; /* Position the background text */
+  bottom: 0;  /*At the bottom. Use top:0 to append it to the top */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+
 
 .hero-text button {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+  padding: 10px 20px;
   text-align: center;
   cursor: pointer;
+  background-color: #f6a742;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #000;
+  text-shadow: 1px 1px 1px black;
+  border-radius:8px;
+
 }
 
 .hero-text button:hover {
@@ -130,16 +153,66 @@ background-image:url("../img/demolicion.jpg");
 
 .hero-image .hero-text {
   position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
- /* background: rgb(0, 0, 0); /* Fallback color */*/
-  /*background: rgba(0, 0, 0, 0.5);*/ /* Black background with 0.5 opacity */
+  bottom: 0;  /*At the bottom. Use top:0 to append it to the top */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
 }
 
-.hero-text .mostaza{
-  background-color: #f6a742;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
+
+.v3{
+ 
+ font-family: "oswald";
+ font-weight: 600;
+ text-transform: uppercase;
+ padding-top: 50px!important;
+
+text-shadow: 1px 1px 1px #fff;
+
+
 }
+
+.question{
+  color: #007e00;
+  font-family: "roboto";
+  font-weight: 500;
+  
+}
+
+.hero-text-v2 p{
+
+font-family: "roboto";
+
+}
+
+
+#slider {
+position: relative;
+overflow: hidden;
+width: 300px;
+height: 200px;
+border:2px solid #333;
+border-radius: 10px;
+margin: 0 auto;
+padding: 0;
+ background-color: #ffd775!important;
+}
+
+#slider > div {
+position:absolute;
+top:0;
+left:0;
+}
+#slider img {
+width:100%;
+min-height:200px;
+margin:0;
+padding:0;
+border:0;
+}
+
+
+
+
+
+
